@@ -20,9 +20,12 @@ public class javaRepo {
 
         // With our current Allowance, how many battle passes will we be able to buy?
         System.out.println("Amount of battle passes we can buy : " + Math.floor(allowance/battlePass));
+            // I got the answer by taking the allowance and dividing it by the cost of each battlepass, then flooring it to remove any decimals because you can't buy a decimal amount of battle passes
+        
 
         // What is the total cost of battle passes
         System.out.println("Total cost of battle passes : " + (battlePass * games));
+            //I took the amount of games and multiplied by the cost of each battle pass to get the total cost of buying a battlepass for each game
     }   
 
 }
